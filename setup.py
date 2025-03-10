@@ -5,7 +5,7 @@ from setuptools.command.develop import develop
 import subprocess
 import sys
 
-install_requires = []
+install_requires = ["paddlepaddle-gpu"]
 
 test_requires = [
     "pytest",
