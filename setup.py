@@ -5,7 +5,7 @@ from setuptools.command.develop import develop
 import subprocess
 import sys
 
-install_requires = []
+install_requires = ["paddlepaddle>=2.0.0"]
 
 test_requires = [
     "pytest",
