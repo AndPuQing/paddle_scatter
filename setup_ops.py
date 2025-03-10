@@ -38,4 +38,5 @@ setup(
     url="https://github.com/PFCCLab/paddle_scatter",
     description="Paddle extension of scatter and segment operators with min and max reduction methods, originally from https://github.com/rusty1s/pytorch_scatter",
     ext_modules=get_extensions(),
+    install_requires=["paddlepaddle>=2.0.0"],
 )
